@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.js": "/static/js/main.e04d58c8.js",
+    "static/media/email-header-autumn-background-v2.jpg": "/static/media/email-header-autumn-background-v2.94830b4da01769c4cc7d.jpg",
+    "static/media/email-header-winter-background-v2.jpg": "/static/media/email-header-winter-background-v2.87e9d98677d63daa0fa6.jpg",
+    "static/media/email-header-summer-background-v2.jpg": "/static/media/email-header-summer-background-v2.748e00993f3773c72280.jpg",
+    "static/media/email-header-spring-background-v2.jpg": "/static/media/email-header-spring-background-v2.c68017137abb03dc1aef.jpg",
+    "static/media/email-teaser.png": "/static/media/email-teaser.da7b722c4accccdd4be5.png",
+    "static/media/section_1_2.jpg": "/static/media/section_1_2.b18fdc10a674bf3dd1b0.jpg",
+    "static/media/section_2_3.jpg": "/static/media/section_2_3.e0cbb86a0b69c23fbf6b.jpg",
+    "static/media/email-header-autumn-background-v1.jpg": "/static/media/email-header-autumn-background-v1.5047b25af081efe4dc95.jpg",
+    "static/media/email-header-the-rolling-scopes-v1.png": "/static/media/email-header-the-rolling-scopes-v1.64544719dcd15c67382b.png",
+    "static/media/email-header-summer-background-v1.jpg": "/static/media/email-header-summer-background-v1.e4c20de1d44ece1af90d.jpg",
+    "static/media/email-header-spring-background-v1.jpg": "/static/media/email-header-spring-background-v1.76fbb1d446a9013cbcbc.jpg",
+    "static/media/email-header-winter-background-v1.jpg": "/static/media/email-header-winter-background-v1.77c410bf82fb44b1b11c.jpg",
+    "static/media/email-header-newcomer.jpg": "/static/media/email-header-newcomer.8e0ae338ef0ff13284bc.jpg",
+    "static/media/prefooter.jpg": "/static/media/prefooter.b2a139c23a1edba11a02.jpg",
+    "static/media/telescope-v1.png": "/static/media/telescope-v1.ed0b4325bf86becb7adb.png",
+    "static/media/linkedin-v1.png": "/static/media/linkedin-v1.128713fe182ce6c9fb09.png",
+    "static/media/skype-v1.png": "/static/media/skype-v1.e48b3fd75f2da60e5ddc.png",
+    "static/media/info-sent-message.svg": "/static/media/info-sent-message.43f605e2956899363d468f093c05ed7c.svg",
+    "static/media/userpic-icon.svg": "/static/media/userpic-icon.47dc3be1cf7515ba6da5a587c6a426bb.svg",
+    "index.html": "/index.html",
+    "main.e04d58c8.js.map": "/static/js/main.e04d58c8.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.e04d58c8.js"
+  ]
+}

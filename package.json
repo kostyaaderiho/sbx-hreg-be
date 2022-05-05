@@ -1,0 +1,49 @@
+{
+    "name": "sbx-hreg-be",
+    "version": "1.0.0",
+    "description": "HR emails: server part",
+    "main": "server.js",
+    "scripts": {
+        "develop": "cross-env NODE_ENV=develop nodemon server.ts",
+        "server:build": "tsc --noEmit false",
+        "server": "npm run server:build && cross-env NODE_ENV=production pm2 start ecosystem.config.js",
+        "server:test": "node server-test.js",
+        "clean": "npm cache clean --force && rimraf dist node_modules",
+        "clean:dist": "rimraf dist"
+    },
+    "license": "ISC",
+    "devDependencies": {
+        "@tsconfig/node12": "^1.0.9",
+        "@types/cors": "^2.8.10",
+        "@types/express": "^4.17.11",
+        "@types/mongoose": "^5.10.4",
+        "@types/multer": "^1.4.5",
+        "@types/node": "^17.0.13",
+        "@types/uuid": "^8.3.0",
+        "@typescript-eslint/eslint-plugin": "^5.10.0",
+        "@typescript-eslint/parser": "^5.10.0",
+        "eslint": "^8.7.0",
+        "eslint-config-airbnb-typescript": "^16.1.0",
+        "eslint-plugin-import": "^2.25.4",
+        "lint-staged": "^12.2.1",
+        "nodemon": "^1.19.4",
+        "pm2": "^5.1.2",
+        "ts-node": "^9.1.1",
+        "typescript": "^4.2.3"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "cross-env": "^7.0.3",
+        "dotenv": "^8.2.0",
+        "exceljs": "^3.4.0",
+        "express": "^4.17.1",
+        "husky": "^7.0.4",
+        "mongoose": "^5.12.3",
+        "multer": "^1.4.2",
+        "uuid": "^8.3.2",
+        "winston": "^3.3.3"
+    },
+    "engines": {
+        "node": ">=0.10.3 <15"
+    }
+}
